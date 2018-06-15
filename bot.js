@@ -15,15 +15,16 @@ client.on("message", message => {
       .setThumbnail(message.author.avatarURL)
       .setDescription(`
 
-***__Welcome To World-MC-BOT Help__***
-**
+***Welcome To World-MC-BOT Help_***
+***
 لاوامر الخاصة بالبوت
 
-***ملاحضة***
+ملاحضة***
 **
 يمكنك القيام باي ايمر فقط بكتابة ! و نوع المامر
 مثل:
 !kick
+**
 
 
         ***__General orders__***
@@ -42,29 +43,28 @@ client.on("message", message => {
 
         ***__Bot orders__***
 **
-『ping / يعرض لك سرعه اتصال البوت』
-『uptime / يعرض لك صار للبوت كم شغال』
-『support / سيرفر الدعم القني و المساعده』
-『invite / اضافه البوت』
-『members / حاله الاعضاء』
-『bot / معلومات عن البوت』
+!ping يعرض لك صرعة اتصال البوت
+!uptime يعرض لك المدة التي اشتغلها البوت 
+!support سيرفر الدعم الفني
+!invite اضافة البوت
+!members يعرض لك حالة الاعضاء
+!bot يعرض لك معلومات عن البوت
 **
 
         ***__Administrative Orders__***
 **
-『kick / كيك』
-『ban / بان』
-『mute /ميوت』
-『unmute /فك الميوت』
-『mutechannel /قفل الشات』
-『unmutechannel /فتح الشات』
-『delet / مسح روم』
-『color 50 /انشاء 50 لون』
-『color 100/انشاء 100 لون』
-『color 140/انشاء 140 لوم』
-『ct /انشاء روم كتابي』
-『cv /انشاء روم صوتي』
-『bc /برودكاست』
+!kick كيك
+!ban بان
+!mute اسكات
+!unmute جعل الشخص المسكت يحكي
+!mutechannel قفل الشات
+!unmutechannel فتح الشات
+!delet مسح روم
+f!color 50 [انشاء 50 لون]
+f!color 140 [انشاء 140 لون]
+!ct انشاء روم كتابي
+!cv انشاء روم صوتي
+!bc بورد كاست
 **
 
         ***__Special orders __***
@@ -85,6 +85,8 @@ client.on("message", message => {
 **
 
 ***Join Bot Server GiveAways Today***
+
+** https://discord.gg/xJ57bXY **
    
         
 `)
