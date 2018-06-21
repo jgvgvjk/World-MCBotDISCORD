@@ -800,8 +800,9 @@ client.on("message", (message) => {
  .setThumbnail(client.user.avatarURL)     
  .setDescription("يمكنك اضافتي من هنا" + `
  **
- رابط البوت
- https://discordapp.com/api/oauth2/authorize?client_id=457255436501123072&permissions=1610086647&scope=bot
+**
+***Bot Link***
+https://discordapp.com/api/oauth2/authorize?client_id=459345417692512256&permissions=2146958583&scope=bot
  **
 `);
   message.author.sendEmbed(embed);
@@ -818,8 +819,8 @@ client.on("message", (message) => {
  .setThumbnail(client.user.avatarURL)     
  .setDescription(" ***welcome To server support*** " + `
  **
-رابط السيرفر 
-https://discord.gg/xJ57bXY
+***Server Link ***
+https://discord.gg/mVrmaDH
  **
 `);
   message.author.sendEmbed(embed);
@@ -12496,6 +12497,91 @@ message.member.addRole(message.guild.roles.find("name", "100"));
   }
 	
 });
+
+console.log("&aBot Is On");
+ 
+
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
+╔╦╦╦═╦╗╔═╦═╦══╦═╗
+║║║║╩╣╚╣═╣║║║║║╩╣
+╚══╩═╩═╩═╩═╩╩╩╩═╝ 
+‏نقدم لك دعوة لسموك الراقيَ .
+‏لنحظى بجمال حضورك وتواجدك
+•بتنـورونـا الجميع :wink:
+•اي مشكله توآجهك ولا يهمك. عندك الاداره تفضل ونحل مشكلتك مع آي شخص بالسيرفر.:telephone_receiver:
+•عندك فكره موضوع تفضل شآركنا فيه:jack_o_lantern::gift:
+•واخيرا حييييياكم واكيد وجودكم هو اللي بيدعمنا وراح نكون الافضل.
+شرفنا يا عسل:wink: :kissing_heart:
+نحن نسوي فيه فعاليات و قيف اويات اول ما نوصل 1000 حتكون في قيف اوي على حساب ماين كرافت فول اكسس
+https://discord.gg/xJ57bXY
+و لما 150 حساب عادي
+joined info-selfie
+! Selfie.   
+https://discord.gg/xJ57bXY
+الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+**`) 
+}).catch(console.error)
+})
+
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+و ايضا ادا تريد فلوس ادخل السيرفر دا
+و دخل 20 من طرفك عشان تاخد 
+10$
+
+و كمل المصابرة 60 واحد و خد 
+30$ و اشتري حساب ماين كرافت او اي شي اني
+
+و يدفعون لك عن طريق الباي بال
+
+https://discord.gg/vnhyH3
+الدعووة خاصة لك ي قلبي  [ ${member}  ]
+**`) 
+}).catch(console.error)
+})
+
+client.on('message', msg => {
+  if (msg.content === 'هلا') {
+    msg.reply('هلا بيك');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'hi') {
+    msg.reply('hello');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'سلام عليكم') {
+    msg.reply('و عليكم السلام');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'كلب') {
+    msg.reply('ادا تسب مره ثانيه حتتبند');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'زب') {
+    msg.reply('!ban [ ${member}  ] السب');
+  }
+});
+
+
+
+
+
+
 
 
 
