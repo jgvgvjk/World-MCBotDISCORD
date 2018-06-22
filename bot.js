@@ -1214,7 +1214,7 @@ client.on("message", message => {
                             if (message.content === "f!color") {
                                 if( Premium.some(word => message.guild.id.includes(word)) ) {
 
-        message.channel.send('ليست لديك الصلاحيات الازمة')
+        message.channel.send('@here Premium Only :upside_down:')
 
                                 } else {
    message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
@@ -1227,7 +1227,7 @@ client.on("message", message => {
                             if (message.content === "f!color 140") {
                                 if( Premium.some(word => message.guild.id.includes(word)) ) {
 
-        message.channel.send('ليست لديك الصلاحيات الازمة')
+        message.channel.send('@here Premium Only :upside_down:')
 
                                 } else {
    message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
@@ -1240,7 +1240,7 @@ client.on("message", message => {
                             if (message.content === "f!color 100") {
                                 if( Premium.some(word => message.guild.id.includes(word)) ) {
 
-        message.channel.send('ليست لديك الصلاحيات الازمة')
+        message.channel.send('@here Premium Only :upside_down:')
 
                                 } else {
    message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
@@ -1253,7 +1253,7 @@ client.on("message", message => {
                             if (message.content === "f!color 50") {
                                 if( Premium.some(word => message.guild.id.includes(word)) ) {
 
-        message.channel.send('ليست لديك الصلاحيات الازمة')
+        message.channel.send('@here Premium Only :upside_down:')
 
                                 } else {
    message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
@@ -1266,7 +1266,7 @@ client.on("message", message => {
                             if (message.content === "f!colors") {
                                 if( Premium.some(word => message.guild.id.includes(word)) ) {
 
-        message.channel.send('ليست لديك الصلاحيات الازمة')
+        message.channel.send('@here Premium Only :upside_down:')
 
                                 } else {
    message.channel.send('Premium Only! :upside_down:').then(message => {message.delete(1000)});
